@@ -1,0 +1,170 @@
+# depslib dependency file v1.0
+1750110309 source:c:\users\aluno\desktop\tf\dijkstra.c
+	<stdio.h>
+	<stdlib.h>
+	<float.h>
+	"dijkstra.h"
+	"heap.h"
+
+1749747589 c:\users\aluno\desktop\tf\dijkstra.h
+	"grafo.h"
+
+1750542566 c:\users\aluno\desktop\tf\grafo.h
+
+1749747589 c:\users\aluno\desktop\tf\heap.h
+
+1750601858 source:c:\users\aluno\desktop\tf\entidade.c
+	<stdio.h>
+	<stdlib.h>
+	"entidade.h"
+
+1750565510 c:\users\aluno\desktop\tf\entidade.h
+
+1750542566 source:c:\users\aluno\desktop\tf\filag.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"filaG.h"
+
+1750542566 c:\users\aluno\desktop\tf\filag.h
+
+1750680096 source:c:\users\aluno\desktop\tf\grafo.c
+	<stdlib.h>
+	<stdio.h>
+	"grafo.h"
+
+1749747589 source:c:\users\aluno\desktop\tf\heap.c
+	<stdlib.h>
+	"heap.h"
+
+1750688684 source:c:\users\aluno\desktop\tf\listag.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaG.h"
+
+1750677359 c:\users\aluno\desktop\tf\listag.h
+
+1750565765 source:c:\users\aluno\desktop\tf\mapa.c
+	<stdio.h>
+	<stdlib.h>
+	"mapa.h"
+
+1750559814 c:\users\aluno\desktop\tf\mapa.h
+
+1750779360 source:c:\users\aluno\desktop\tf\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu.h"
+
+1750779360 c:\users\aluno\desktop\tf\menu.h
+
+1750677082 source:c:\users\aluno\desktop\tf\pilhag.c
+	<stdio.h>
+	<stdlib.h>
+	"pilhaG.h"
+
+1749917743 c:\users\aluno\desktop\tf\pilhag.h
+
+1750783341 source:c:\users\aluno\desktop\tf\teste.c
+	<stdio.h>
+	<stdlib.h>
+	"dijkstra.h"
+	"cenario.h"
+
+1750785663 c:\users\aluno\desktop\tf\cenario.h
+	"filaG.h"
+	"grafo.h"
+	"listaG.h"
+	"mapa.h"
+	"entidade.h"
+
+1750794085 source:e:\tf\cenario.c
+	<stdio.h>
+	<stdlib.h>
+	"entidade.h"
+	"cenario.h"
+	"dijkstra.h"
+
+1750565510 e:\tf\entidade.h
+
+1750794065 e:\tf\cenario.h
+	"filaG.h"
+	"grafo.h"
+	"listaG.h"
+	"mapa.h"
+	"entidade.h"
+
+1750542566 e:\tf\filag.h
+
+1750542566 e:\tf\grafo.h
+
+1750677359 e:\tf\listag.h
+
+1750559814 e:\tf\mapa.h
+
+1749747589 e:\tf\dijkstra.h
+	"grafo.h"
+
+1750110309 source:e:\tf\dijkstra.c
+	<stdio.h>
+	<stdlib.h>
+	<float.h>
+	"dijkstra.h"
+	"heap.h"
+
+1749747589 e:\tf\heap.h
+
+1750601858 source:e:\tf\entidade.c
+	<stdio.h>
+	<stdlib.h>
+	"entidade.h"
+
+1750542566 source:e:\tf\filag.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"filaG.h"
+
+1750680096 source:e:\tf\grafo.c
+	<stdlib.h>
+	<stdio.h>
+	"grafo.h"
+
+1749747589 source:e:\tf\heap.c
+	<stdlib.h>
+	"heap.h"
+
+1750688684 source:e:\tf\listag.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaG.h"
+
+1750565765 source:e:\tf\mapa.c
+	<stdio.h>
+	<stdlib.h>
+	"mapa.h"
+
+1750677082 source:e:\tf\pilhag.c
+	<stdio.h>
+	<stdlib.h>
+	"pilhaG.h"
+
+1749917743 e:\tf\pilhag.h
+
+1750794065 source:e:\tf\teste.c
+	<stdio.h>
+	<stdlib.h>
+	"dijkstra.h"
+	"cenario.h"
+
+1750788236 source:e:\tf\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu.h"
+
+1750779360 e:\tf\menu.h
+
