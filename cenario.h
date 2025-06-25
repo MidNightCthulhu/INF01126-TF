@@ -23,10 +23,15 @@ Data:21/06/2025
 typedef struct{                                                                 //definicao da struct Cenario
     int vidas;                                                                  //numero de vidas do Pac-Man
     int pontos;                                                                 //pontuacao do jogador
+    int imortal;                                                                //contador regressivo da duracao da imortalidade do Pac-Man apos consumir uma pastilha de imortalidade
     int dimEntes;                                                               //dimensao atual do vetor de ponteiros para entidades do cenario
     int nEntes;                                                                 //quantidade de ponteiros de Entidades no vetor da struct Cenario
     char mov;                                                                   //intensao de movimentacao(w,a,s ou d) do Pac-Man
-    int ch_Pman;                                                                //chave do Pac-Man no vetor de entidades
+    int chaveF;                                                                 //chave do fantasma F no vetor de entidades
+    int chaveG;                                                                 //chave do fantasma G no vetor de entidades
+    int chaveH;                                                                 //chave do fantasma H no vetor de entidades
+    int chaveJ;                                                                 //chave do fantasma J no vetor de entidades
+    int chaveP;                                                                 //chave do Pac-Man no vetor de entidades
     Mapa* mapa;                                                                 //ponteiro para uma struct Mapa
     Entidade** entes;                                                           //ponteiro para vetor de ponteiros para Entidade
     FilaG* fantasmas;                                                           //ponteiro para fila dos fantasmas, que estao fora do mapa, ingressarem no mapa
@@ -39,18 +44,17 @@ Cenario* cenario_cria(const char* arqMapa);
 //Funcao que desaloca uma struct Cenario dinamicamente alocada
 void cenario_destroi(Cenario* cena);
 
-/*/Funcao que retorna uma lista da sequencia das celulas do mapa(vertices do digrafo) do menor caminho entre um fantasma e o Pac-Man
-Dijkstra* cenario_ataque(Grafo* grafo, int vOrigem);*/
-
 //Funcao que salva uma struct Cenario em arquivo
 int cenario_salva(Cenario* cena, const char* nomeArq);
 
 //Funcao que carrega uma struct Cenario a partir de um arquivo
 Cenario* cenario_carrega(const char* nomeArq);
 
-//Funcoes de movimentacao dos fantasmas
 //Ataque
-int* cenario_ataca(Cenario* cena, Entidade* fantasma);
+int* cenario_F_ataca(Cenario* cena; int* tam);
+int* cenario_G_ataca(Cenario* cena; int* tam);
+int* cenario_H_ataca(Cenario* cena; int* tam);
+int* cenario_J_ataca(Cenario* cena; int* tam);
 
 /*/Fuga
 
